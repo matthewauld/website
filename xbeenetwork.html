@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+<link href="https://fonts.googleapis.com/css?family=K2D|Open+Sans" rel="stylesheet">
+ <link rel="stylesheet" type="text/css" href="http://www.matthewauld.ca/theme/css/auldtheme.css">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+ <title>Matthew Auld</title>
+ <meta charset="utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+</head>
+<body>
+  <aside>
+    <div>
+      <a href="http://www.matthewauld.ca">
+        <img src="/theme/img/profile.png" width=150 hight=150>
+      </a>
+      <h1 class="sitename">
+
+        Matthew Auld
+
+      </h1>
+      <nav>
+        <ul class="navlist">
+          <li><a href="http://www.matthewauld.ca">Home</a></li>
+
+              <li><a href="http://www.matthewauld.ca/pages/about-me.html">About Me</a></li>
+              <li><a href="http://www.matthewauld.ca/pages/contact-me.html">Contact Me</a></li>
+              <li><a href="http://www.matthewauld.ca/pages/resume.html">Resume</a></li>
+              <li class="active"><a href="http://www.matthewauld.ca/category/projects.html">Projects</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+  <main>
+    <article>
+
+        <hr>
+
+<h2>Xbeenetwork Interface</h2>
+
+        <hr class="after">
+
+
+
+  <div>
+
+    </footer><!-- /.post-info -->
+  </div>
+  <div class="entry-content">
+  <p>Ive been experimenting with these <a href="http://www.farnell.com/datasheets/27606.pdf">Xbee Series 2</a> radios, communicating both serial data using the Xbee module as a simple short range packet radio, and using the Xbee's DIO pins. The radios can be programmed to sleep for an interval, wake, take a reading or trigger a switch, and then sleep again, meaning they are great for low energy sensor networks.</p>
+<p>The xbeenetwork is an attempt to create a simple python class that with handing keeping track of nodes on the network, and instantiating classes for different types of end devices. Very much a work in progress and just an easy way to experiment, but I do eventually want to build this into something that could handle managing a household's sensor net.</p>
+<p>I'll update with some hardware (smart plugs, etc.) I have been working on in the future. I am not an expert on the hardware side, and and have yet to find a simple, cheap, and safe way to power these 3.3v radios from the mains in a smart plug - any suggestions would be appreciated! Until then, I'm be using batteries or a dedicated wall-wart.</p>
+<p><a href="https://github.com/matthewauld/xbeenetwork">Project Code</a></p>
+  </div><!-- /.entry-content -->
+
+</div>
+  </article>
+  </main>
+</body>
+</html>
