@@ -33,6 +33,7 @@ DEFAULT_PAGINATION = False
 STATIC_PATHS = ['images', 'extra/CNAME' , 'files' ]
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 LOAD_CONTENT_CACHE = False
+OUTPUT_RETENTION = [".git"]
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
