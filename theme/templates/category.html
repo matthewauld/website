@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block pagetitle %}
+<h2>{{ category }}</h2>
+{% endblock %}
+
+
+{% block body %}
+<ul class="article-list">
+{% for article in articles_page.object_list %}
+<li>
+<h3><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}"><i class="fas fa-project-diagram"></i>&nbsp;{{ article.title }}</a></h2>
+<div>{{ article.summary }}</div>
+</li>
+<hr class="after">
+
+{% endfor %}
+
+</ul>
+
+{% endblock %}

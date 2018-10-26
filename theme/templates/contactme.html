@@ -1,0 +1,24 @@
+{% extends 'page.html' %}
+
+{% block body %}
+
+
+  <div>
+    {{page.content}}
+
+  </div>
+  <div>
+      <form method="POST" action="http://formspree.io/matthew@matthewauld.ca">
+        <div class="form-group">
+          <label class="row" for="email">Your email</label>
+          <input class="form-control" type="email" name="email" id="email" placeholder="Your email">
+        </div>
+        <div class="form-group">
+          <label class="row" for="message">Your message</label>
+          <textarea rows=6 class="form-control" id="message" name="message" placeholder="Your message"></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Send</button>
+      </form>
+</div>
+
+{% endblock %}
