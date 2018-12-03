@@ -30,8 +30,8 @@ SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = False
-STATIC_PATHS = ['images', 'extra/CNAME' , 'files' ]
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+STATIC_PATHS = ['images', 'extra/CNAME' , 'files','extra/keybase.txt']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},'extra/keybase.txt':{'path':'keybase.txt'}}
 LOAD_CONTENT_CACHE = False
 OUTPUT_RETENTION = [".git"]
 # Uncomment following line if you want document-relative URLs when developing

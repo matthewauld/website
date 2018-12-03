@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/mauld
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.matthewauld.ca
+  * I am mauld (https://keybase.io/mauld) on keybase.
+  * I have a public key ASAHzrgozAbSVHHzAbtymXv2S0w3Utg88N0EwyB5Mu6sQAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120cfd7686e90a07b87c006281abffacc21cc79d2fc8e06ec567d5a41a486e438180a",
+      "host": "keybase.io",
+      "kid": "012007ceb828cc06d25471f301bb72997bf64b4c3752d83cf0dd04c3207932eeac400a",
+      "uid": "8f9e81a2f0bd29a0ff0ce1c404698819",
+      "username": "mauld"
+    },
+    "merkle_root": {
+      "ctime": 1542847484,
+      "hash": "02ab41428cea83617da6a1222873452dbc8c5cb5b56e7dc0700968fb583f121fb68154251a003b48475d5c670b96706acb7eacfbed04a73d930261c6c7ae11a1",
+      "hash_meta": "f17314fb256835273f754ed9730754e63a2ac2e189414c9ddf4c7c3de33448ef",
+      "seqno": 3991141
+    },
+    "service": {
+      "entropy": "je7gLslcJmRyOhwFFs67F6Ob",
+      "hostname": "www.matthewauld.ca",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.11.0"
+  },
+  "ctime": 1542847489,
+  "expire_in": 504576000,
+  "prev": "e1e72364cdc3a139cfaa3750c64d95f9d99d1c320ef7917d680c85ed1a11c173",
+  "seqno": 38,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgB864KMwG0lRx8wG7cpl79ktMN1LYPPDdBMMgeTLurEAKp3BheWxvYWTESpcCJsQg4ecjZM3DoTnPqjdQxk2V+dmdHDIO95F9aAyF7RoRwXPEINyEAkoCzh6V/3uXCGmQLMYbfgB9eUmeHR/OWAOegqK3AgHCo3NpZ8RAfePKI86KkDCDoQI/k/GUFIbMw24KstK8FG8Pjfukb968xE08aTc2/h9UCHBBo8ogkWRaeh8Oe1BlJ48y26QvBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIOWWjTZhoVbYoWpdcRALRY2xjUVP9/dhXtH5hPUt1eRZo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mauld
+
+==================================================================
