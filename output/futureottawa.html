@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+<link href="https://fonts.googleapis.com/css?family=K2D|Open+Sans" rel="stylesheet">
+ <link rel="stylesheet" type="text/css" href="https://www.matthewauld.ca/theme/css/auldtheme.css">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+ <title>Matthew Auld</title>
+ <meta charset="utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+</head>
+<body>
+  <aside>
+    <div>
+      <a href="https://www.matthewauld.ca">
+        <img src="/theme/img/profile.png" width=150 hight=150>
+      </a>
+      <h1 class="sitename">
+
+        Matthew Auld
+
+      </h1>
+      <nav>
+        <ul class="navlist">
+          <li><a href="https://www.matthewauld.ca">Home</a></li>
+
+              <li><a href="https://www.matthewauld.ca/pages/about-me.html">About Me</a></li>
+              <li><a href="https://www.matthewauld.ca/pages/contact-me.html">Contact Me</a></li>
+              <li><a href="https://www.matthewauld.ca/pages/resume.html">Resume</a></li>
+              <li class="active"><a href="https://www.matthewauld.ca/category/projects.html">Projects</a></li>
+        </ul>
+      </nav>
+
+    </div>
+    <div class="social">
+    <a href="http://github.com/matthewauld"?><i class="fab fa-github fa-2x"></i></a>&nbsp
+    <a href="https://twitter.com/MatthewAuld1"?><i class="fab fa-twitter fa-2x"></i></a>&nbsp
+    <a href="https://www.linkedin.com/in/matthewauld/"?><i class="fab fa-linkedin-in fa-2x"></i></a>
+
+  </div>
+  </aside>
+  <main>
+    <article>
+
+        <hr>
+
+<h2>FutureOttawa</h2>
+
+        <hr class="after">
+
+
+
+  <div>
+
+    </footer><!-- /.post-info -->
+  </div>
+  <div class="entry-content">
+  <p>Community consultation is an important part of urban development, but unless you are plugged into your local news (assuming you still <em>have</em> local news in your area), community organizations, or check the city website obsessively, it is easy to miss the opportunity to participate to the ones that are important important to you.</p>
+<p>At the same time, staying up to date on community design plans, changing  zoning regulations and by-laws can be complex to say the least.</p>
+<p><a href="https://futureottawa.ca">FutureOttawa.ca</a> aims to address these issues by providing a one-stop tool to explore how the city is changing and a guide on how to give your input and get involved. Right now <strong>still very much a work in progress</strong>, I wanted to get it online to get some basic feedback.</p>
+<p>The City of Ottawa does provide a <a href="http://data.ottawa.ca/">great site to access datasets about the city</a>, but one missing piece is development applications. Right now the city does have a map tool, but no way to sort on current status or date.</p>
+<p>futureottawa scrapes all of the development applications once a week, and stores them in a mongo database. it keeps track of changes to the status of the applications, so users can see when  it moves from one stage to another.</p>
+<p>The goal is to allow users to sign up to be notified when development applications are submitted or changed within a given distance of them, and how and when they can give feedback.</p>
+<p>I also want to add other datasets, such as building permits, and city work such as new bike lanes, road windings, transit expansion, etc. The end goal is to be able to filter and see what the current plan for the city if a some point in the future.</p>
+<p>Other goals include adding information about how and why changes are being made in non-technical language, and the development process in Ottawa overall.</p>
+<p>The site uses <a href="https://leafletjs.com/">Leaflet</a> for the maps, and a custom written DataLayer class to encapsulate geoJSON data and allow the developer to quickly and easily add new datasets, generate popups, filters, and corresponding filter controls quickly and easily. In the back end it uses Express.</p>
+<p>If you have any thoughts, or want to get involved, please don't hesitate to reach out!</p>
+<p><a href="https://github.com/matthewauld/futureottawa">Project Code</a></p>
+  </div><!-- /.entry-content -->
+
+</div>
+  </article>
+  </main>
+</body>
+</html>
