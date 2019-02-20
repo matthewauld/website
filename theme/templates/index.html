@@ -1,7 +1,27 @@
 {% extends "base.html" %}
 {% block header%}
 <h1>Welcome.</h1>
-<p>Hi, my name is Matthew. I built <a href="{{ SITEURL }}/website.html">this site</a> to host some of my projects, thoughts, and brush up on my css. Development is ongoing</p>
+<p>Hi, my name is Matthew. I am an aspiring computer scientist and developmer in Ottawa, Ontario. I built <a href="{{ SITEURL }}/website.html">this site</a> to host some of my projects, thoughts, resume, and brush up on my css. </p>
+<p>If you have any questions, don't heistate to reach out! </p>
+<p>Development is ongoing...</p>
 {% endblock %}
+
 {% block body %}
+<hr class="after">
+<h2>Recent Posts</h2>
+<hr class="after">
+{% for article in articles_page.object_list %}
+<div class="hentry">
+          <header>
+            <h3 class="entry-title">{{ article.title }}</h3>
+            <time class="published" datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }} </time>
+          </header>
+
+          <div class="entry-content"> {{ article.summary }} </div><!-- /.entry-content -->
+          <div> <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">more...</a>
+          </div>
+  <hr class="after">
+
+{% endfor %}
+
 {% endblock %}

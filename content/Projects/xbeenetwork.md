@@ -1,7 +1,6 @@
 title: Xbeenetwork Interface
 slug: xbeenetwork
 date: 2018-01-01
-summary: Sensor Network using XBee radio
 
 Ive been experimenting with these [Xbee Series 2](http://www.farnell.com/datasheets/27606.pdf) radios, communicating both serial data using the Xbee module as a simple short range packet radio, and using the Xbee's DIO pins. The radios can be programmed to sleep for an interval, wake, take a reading or trigger a switch, and then sleep again, meaning they are great for low energy sensor networks.
 

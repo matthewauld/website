@@ -133,6 +133,13 @@ ul{
   margin-top: 0em;
   padding-bottom: 1em;
 }
+.entry-title {
+  display: inline-block;
+}
+
+.published {
+  float: right;
+}
 
 @media screen and (min-width:768px){
     hr {
