@@ -2,6 +2,8 @@ title: FutureOttawa
 slug: futureottawa
 date: 2019-02-20
 
+>_Edit 2019-08-18: This project is on hold for now and futureottawa.ca is offline. I have learned a lot about front end development since, and it needs a bit of a rewrite. I would love to come back to it at some point though!_
+
 Community consultation is an important part of urban development, but unless you are plugged into your local news (assuming you still *have* local news in your area), community organizations, or check the city website obsessively, it is easy to miss the opportunity to participate to the ones that are important important to you.
 
 At the same time, staying up to date on community design plans, changing  zoning regulations and by-laws can be complex to say the least.

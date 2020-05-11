@@ -79,9 +79,6 @@ nav ul{
 }
 
 main{
-
-}
-article {
     margin: 2% 8% 2% 8%;
 }
 
@@ -127,6 +124,9 @@ ul{
   list-style: none;
   padding-left:0;
   margin:0;
+}
+article ul {
+  list-style: initial;
 }
 .social{
   padding-top: 0em;
@@ -175,22 +175,18 @@ ul{
         padding-top:32px
     }
     main{
-        width:75%;
+        width:70%;
         height:100%;
         position:absolute;
         top:0;
         left:25%
+
     }
     main article.single{
         min-height:80%
     }
     main article ul.list li{
-        padding:2px
+        padding:3px
     }
-    .ads-aside{
-        height:250px
-    }
-    .ads-responsive{
-        height:90px
-    }
+
 }
